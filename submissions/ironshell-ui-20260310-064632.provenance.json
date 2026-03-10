@@ -1,0 +1,10 @@
+{
+  "team_name": "ironshell-ui",
+  "submission_id": "ironshell-ui-20260310-064632",
+  "agent_name": "IronShell Agent v8.0 IRON FORTRESS",
+  "agent_description": "Multi-model AI agent with NanoShield security (221 patterns), IronDNA adaptive personality, Squad multi-agent routing, and vision-based Minecraft gameplay using GPT-4o/Kimi K2.5",
+  "docker_image": "ghcr.io/ironshell-ui/claudecowork-agent:master",
+  "timestamp": "2026-03-10T06:46:32Z",
+  "version": "8.0.1",
+  "changelog": "Fixed NanoShield interception bug: Minecraft multi-turn messages were being misclassified as safety threats due to 'attack' keyword overlap, causing Security Analysis Report output instead of valid JSON actions"
+}
