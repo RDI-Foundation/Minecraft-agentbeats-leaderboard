@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "task_category": "motion",
+      "num_tasks": 4,
+      "total_max_score": 40.0,
+      "total_score": 10.0,
+      "avg_action_control": "N/A",
+      "avg_error_recognition_and_correction": "N/A",
+      "avg_creative_attempts": "N/A",
+      "avg_task_completion_efficiency": "N/A",
+      "avg_material_selection_and_usage": "N/A",
+      "task_metrics": {
+        "look_at_the_sky": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "stacking_acacia_fence": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "drop_an_item": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "throw_a_snowball": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 10.0
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019ca14a-10e7-70b2-8463-ca8c7e723735",
+    "agent": "019cf4a0-2179-7791-a6da-28a0b0759acc"
+  }
+}
