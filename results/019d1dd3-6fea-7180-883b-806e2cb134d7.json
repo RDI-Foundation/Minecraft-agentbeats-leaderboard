@@ -1,0 +1,82 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "task_category": "tool_use",
+      "num_tasks": 12,
+      "total_max_score": 120.0,
+      "total_score": 25.0,
+      "avg_action_control": "N/A",
+      "avg_error_recognition_and_correction": "N/A",
+      "avg_creative_attempts": "N/A",
+      "avg_task_completion_efficiency": "N/A",
+      "avg_material_selection_and_usage": "N/A",
+      "task_metrics": {
+        "plant_wheats": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "sleep_in_bed": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "brew_potion_of_fire_resistance": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "enchant_diamond_sword": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "drink_harming_potion": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 10.0
+        },
+        "use_trident": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "use_shield": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "use_lead": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "make_fire_with_flint_and_steel": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 5.0
+        },
+        "carve_pumpkins": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "use_bow": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 10.0
+        },
+        "smelt_beef": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019ca14a-10e7-70b2-8463-ca8c7e723735",
+    "agent": "019cf4a0-2179-7791-a6da-28a0b0759acc"
+  }
+}
