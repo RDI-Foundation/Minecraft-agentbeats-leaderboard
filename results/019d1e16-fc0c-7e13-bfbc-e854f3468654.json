@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "task_category": "find",
+      "num_tasks": 9,
+      "total_max_score": 90.0,
+      "total_score": 0.0,
+      "avg_action_control": "N/A",
+      "avg_error_recognition_and_correction": "N/A",
+      "avg_creative_attempts": "N/A",
+      "avg_task_completion_efficiency": "N/A",
+      "avg_material_selection_and_usage": "N/A",
+      "task_metrics": {
+        "find_bedrock": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_melon": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_forest": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_item_frame": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_blue_bed": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_sand": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_lava": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_village": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        },
+        "find_diamond": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019ca14a-10e7-70b2-8463-ca8c7e723735",
+    "agent": "019cf4a0-2179-7791-a6da-28a0b0759acc"
+  }
+}
