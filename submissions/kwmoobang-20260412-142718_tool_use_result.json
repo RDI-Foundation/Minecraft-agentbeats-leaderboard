@@ -4,55 +4,135 @@
   },
   "results": [
     {
-      "task_category": "motion",
-      "num_tasks": 4,
-      "total_max_score": 40.0,
-      "total_score": 33.0,
-      "avg_action_control": 3.75,
-      "avg_error_recognition_and_correction": 2.25,
-      "avg_creative_attempts": 1.0,
-      "avg_task_completion_efficiency": 5.25,
-      "avg_material_selection_and_usage": 8.33,
+      "task_category": "tool_use",
+      "num_tasks": 12,
+      "total_max_score": 120.0,
+      "total_score": 46.5,
+      "avg_action_control": 3.67,
+      "avg_error_recognition_and_correction": 2.17,
+      "avg_creative_attempts": 0.67,
+      "avg_task_completion_efficiency": 3.08,
+      "avg_material_selection_and_usage": 4.5,
       "task_metrics": {
-        "drop_an_item": {
+        "brew_potion_of_fire_resistance": {
           "max_score": 10.0,
           "sim_score": 0.0,
-          "score": 5.0,
-          "action_control": 3.0,
-          "error_recognition_and_correction": 0.0,
+          "score": 3.0,
+          "action_control": 4.0,
+          "error_recognition_and_correction": 2.0,
+          "creative_attempts": 1.0,
+          "task_completion_efficiency": 2.0,
+          "material_selection_and_usage": 3.0
+        },
+        "carve_pumpkins": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.5,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 1.0,
           "creative_attempts": 0.0,
           "task_completion_efficiency": 2.0,
-          "material_selection_and_usage": 5.0
+          "material_selection_and_usage": 1.0
         },
-        "look_at_the_sky": {
-          "max_score": 10.0,
-          "sim_score": 0.0,
-          "score": 8.0,
-          "action_control": 5.0,
-          "error_recognition_and_correction": 7.0,
-          "creative_attempts": 4.0,
-          "task_completion_efficiency": 6.0,
-          "material_selection_and_usage": "N/A"
-        },
-        "stacking_acacia_fence": {
-          "max_score": 10.0,
-          "sim_score": 0.0,
-          "score": 10.0,
-          "action_control": 3.0,
-          "error_recognition_and_correction": 2.0,
-          "creative_attempts": 0.0,
-          "task_completion_efficiency": 4.0,
-          "material_selection_and_usage": 10.0
-        },
-        "throw_a_snowball": {
+        "drink_harming_potion": {
           "max_score": 10.0,
           "sim_score": 1.0,
           "score": 10.0,
-          "action_control": 4.0,
+          "action_control": 10.0,
+          "error_recognition_and_correction": 10.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 10.0,
+          "material_selection_and_usage": 10.0
+        },
+        "enchant_diamond_sword": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 3.0,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 1.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 1.0,
+          "material_selection_and_usage": 2.0
+        },
+        "make_fire_with_flint_and_steel": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 7.5,
+          "action_control": 5.0,
+          "error_recognition_and_correction": 2.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 6.0,
+          "material_selection_and_usage": 9.0
+        },
+        "plant_wheats": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 4.0,
+          "action_control": 6.0,
+          "error_recognition_and_correction": 5.0,
+          "creative_attempts": 3.0,
+          "task_completion_efficiency": 7.0,
+          "material_selection_and_usage": 9.0
+        },
+        "sleep_in_bed": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.5,
+          "action_control": 5.0,
+          "error_recognition_and_correction": 2.0,
+          "creative_attempts": 3.0,
+          "task_completion_efficiency": 3.0,
+          "material_selection_and_usage": 5.0
+        },
+        "smelt_beef": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 2.0,
+          "action_control": 0.0,
           "error_recognition_and_correction": 0.0,
           "creative_attempts": 0.0,
-          "task_completion_efficiency": 9.0,
-          "material_selection_and_usage": 10.0
+          "task_completion_efficiency": 0.0,
+          "material_selection_and_usage": 2.0
+        },
+        "use_bow": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.5,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 0.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 0.0,
+          "material_selection_and_usage": 3.0
+        },
+        "use_lead": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.0,
+          "action_control": 3.0,
+          "error_recognition_and_correction": 1.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 1.0,
+          "material_selection_and_usage": 3.0
+        },
+        "use_shield": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 10.0,
+          "action_control": 3.0,
+          "error_recognition_and_correction": 2.0,
+          "creative_attempts": 1.0,
+          "task_completion_efficiency": 3.0,
+          "material_selection_and_usage": 4.0
+        },
+        "use_trident": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.5,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 0.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 2.0,
+          "material_selection_and_usage": 3.0
         }
       }
     }
