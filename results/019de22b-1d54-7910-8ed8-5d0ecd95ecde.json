@@ -1,0 +1,112 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "task_category": "combat",
+      "num_tasks": 9,
+      "total_max_score": 90.0,
+      "total_score": 29.0,
+      "avg_action_control": 4.78,
+      "avg_error_recognition_and_correction": 3.11,
+      "avg_creative_attempts": 2.56,
+      "avg_task_completion_efficiency": 4.0,
+      "avg_material_selection_and_usage": 5.56,
+      "task_metrics": {
+        "combat_witch": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 3.0,
+          "action_control": 4.0,
+          "error_recognition_and_correction": 3.0,
+          "creative_attempts": 2.0,
+          "task_completion_efficiency": 3.0,
+          "material_selection_and_usage": 5.0
+        },
+        "hunt_pigs": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 0.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 0.0,
+          "material_selection_and_usage": 2.0
+        },
+        "combat_spiders": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.5,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 1.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 2.0,
+          "material_selection_and_usage": 3.0
+        },
+        "combat_enderman": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 4.0,
+          "action_control": 9.0,
+          "error_recognition_and_correction": 5.0,
+          "creative_attempts": 3.0,
+          "task_completion_efficiency": 8.0,
+          "material_selection_and_usage": 9.0
+        },
+        "shoot_phantom": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 1.5,
+          "action_control": 2.0,
+          "error_recognition_and_correction": 1.0,
+          "creative_attempts": 1.0,
+          "task_completion_efficiency": 2.0,
+          "material_selection_and_usage": 3.0
+        },
+        "hunt_horse": {
+          "max_score": 10.0,
+          "sim_score": 1.0,
+          "score": 10.0,
+          "action_control": 8.0,
+          "error_recognition_and_correction": 7.0,
+          "creative_attempts": 8.0,
+          "task_completion_efficiency": 8.0,
+          "material_selection_and_usage": 9.0
+        },
+        "combat_skeletons": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 2.5,
+          "action_control": 3.0,
+          "error_recognition_and_correction": 2.0,
+          "creative_attempts": 1.0,
+          "task_completion_efficiency": 2.0,
+          "material_selection_and_usage": 4.0
+        },
+        "combat_zombies": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 4.0,
+          "action_control": 9.0,
+          "error_recognition_and_correction": 6.0,
+          "creative_attempts": 4.0,
+          "task_completion_efficiency": 8.0,
+          "material_selection_and_usage": 9.0
+        },
+        "combat_wolfs": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 2.5,
+          "action_control": 4.0,
+          "error_recognition_and_correction": 3.0,
+          "creative_attempts": 4.0,
+          "task_completion_efficiency": 3.0,
+          "material_selection_and_usage": 6.0
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019ca14a-10e7-70b2-8463-ca8c7e723735",
+    "agent": "019ddef4-91b9-75e0-8d4f-e2eeb0bd8f3a"
+  }
+}
