@@ -1,0 +1,100 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "agent_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "agent_default_hold_steps": {
+        "type": "string",
+        "default": "3"
+      },
+      "agent_max_hold_steps": {
+        "type": "string",
+        "default": "12"
+      },
+      "agent_model_every_n_steps": {
+        "type": "string",
+        "default": "4"
+      },
+      "agent_openai_base_url": {
+        "type": "string",
+        "default": "https://api.openai.com/v1"
+      },
+      "agent_openai_model": {
+        "type": "string",
+        "default": "gpt-5.4"
+      },
+      "green_openai_api_key": {
+        "type": "string",
+        "secret": true
+      }
+    },
+    "required": [
+      "green_openai_api_key",
+      "agent_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.1/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "task_category": "crafting"
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "agent"
+        },
+        "callback_urls": {
+          "green": "${bindings.green-proxy.url}"
+        }
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/Minecraft-agentbeats/refs/heads/main/amber/amber-manifest-green.json5",
+      "config": {
+        "openai_api_key": "${config.green_openai_api_key}"
+      }
+    },
+    "agent": {
+      "manifest": "https://raw.githubusercontent.com/MadGAA-Lab/MCU-mc-multimodal-agent/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "api_key": "${config.agent_api_key}",
+        "default_hold_steps": "${config.agent_default_hold_steps}",
+        "max_hold_steps": "${config.agent_max_hold_steps}",
+        "model_every_n_steps": "${config.agent_model_every_n_steps}",
+        "openai_base_url": "${config.agent_openai_base_url}",
+        "openai_model": "${config.agent_openai_model}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#agent.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true,
+      "name": "green-proxy"
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019ca14a-10e7-70b2-8463-ca8c7e723735",
+      "agent": "019ddef4-91b9-75e0-8d4f-e2eeb0bd8f3a"
+    }
+  }
+}
