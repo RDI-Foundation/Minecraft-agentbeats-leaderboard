@@ -1,0 +1,22 @@
+{
+  "image_digests": {
+    "/agent": "ghcr.io/madgaa-lab/mcu-mc-multimodal-agent@sha256:461d58938d146bbb21d0e64b4ded5216a7e904357c93daaf84cac5514d11d1b6",
+    "/gateway": "ghcr.io/rdi-foundation/agentbeats-gateway@sha256:30f49abcc6f0b14a2498e645cd6f1f7d0e57316f82224ba18f4cad76e08e02a7",
+    "/green": "ghcr.io/kwsmoobang/mcu-agentbeats@sha256:d34e324671f5b2c2a434b6a9d8de7064ea8c8306423d34b30494567abcaea7ef"
+  },
+  "manifest_digests": {
+    "/": "sha256:oq9GOxRoJvHDgr5wfEDYnyAvZk2VyKUG0X7TpHMQYFs=",
+    "/agent": "sha256:ELiU0VNV7n+eg19T6dCDmAflBwafZ8msquv06g45zMo=",
+    "/gateway": "sha256:YWNLWt2Oy0QNqtALcnrq3tH63EZKGzOG1c1xI1EywTw=",
+    "/green": "sha256:VBaBL0xcCn1e7lD3rCgPJeUvDl6xcNeDfEWzU0O4Ow4="
+  },
+  "timestamp": "2026-05-01T09:31:56Z",
+  "github_actions": {
+    "run_url": "https://github.com/RDI-Foundation/Minecraft-agentbeats-leaderboard/actions/runs/25204454109",
+    "ref": "refs/pull/21/merge",
+    "sha": "8fdf3416581f137d0f69ec28c7e647428f009f04",
+    "repository_url": "https://github.com/RDI-Foundation/Minecraft-agentbeats-leaderboard",
+    "workflow_ref": "RDI-Foundation/Minecraft-agentbeats-leaderboard/.github/workflows/quick-submit.yml@refs/pull/21/merge",
+    "workflow_sha": "8fdf3416581f137d0f69ec28c7e647428f009f04"
+  }
+}
