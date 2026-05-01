@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "task_category": "trapping",
+      "num_tasks": 4,
+      "total_max_score": 40.0,
+      "total_score": 18.0,
+      "avg_action_control": 5.67,
+      "avg_error_recognition_and_correction": 4.0,
+      "avg_creative_attempts": 2.67,
+      "avg_task_completion_efficiency": 4.67,
+      "avg_material_selection_and_usage": 6.0,
+      "task_metrics": {
+        "hook_a_cow_using_fishing_rod": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 10.0,
+          "action_control": 9.0,
+          "error_recognition_and_correction": 8.0,
+          "creative_attempts": 7.0,
+          "task_completion_efficiency": 8.0,
+          "material_selection_and_usage": 10.0
+        },
+        "trap_a_witch_with_a_boat": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 0.0,
+          "action_control": "N/A",
+          "error_recognition_and_correction": "N/A",
+          "creative_attempts": "N/A",
+          "task_completion_efficiency": "N/A",
+          "material_selection_and_usage": "N/A"
+        },
+        "hook_a_chicken_using_fishing_rod": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 6.0,
+          "action_control": 5.0,
+          "error_recognition_and_correction": 3.0,
+          "creative_attempts": 0.0,
+          "task_completion_efficiency": 4.0,
+          "material_selection_and_usage": 6.0
+        },
+        "trap_a_spider_with_a_boat": {
+          "max_score": 10.0,
+          "sim_score": 0.0,
+          "score": 2.0,
+          "action_control": 3.0,
+          "error_recognition_and_correction": 1.0,
+          "creative_attempts": 1.0,
+          "task_completion_efficiency": 2.0,
+          "material_selection_and_usage": 2.0
+        }
+      }
+    }
+  ],
+  "participants": {
+    "green": "019ca14a-10e7-70b2-8463-ca8c7e723735",
+    "agent": "019ddef4-91b9-75e0-8d4f-e2eeb0bd8f3a"
+  }
+}
